@@ -15,7 +15,7 @@ function App() {
 
       <Button> Hide Form / Add New Food </Button>
 
-      <Search setFoodState={setFoodState} foods={foods}></Search>
+      <Search setFoodState={setFoodState} foods={foodState}></Search>
 
       <Divider>Food List</Divider>
 
